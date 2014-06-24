@@ -1,0 +1,13 @@
+{"docName":"GoogleNow","path":"~/Source/FramerSite/static/examples/GoogleNow","relativeImagePath":"images","imagePath":"~/Source/FramerSite/static/examples/GoogleNow/images","framerPath":"~/Source/FramerSite/static/examples/GoogleNow/framer","viewInfoPath":"~/Source/FramerSite/static/examples/GoogleNow/framer/views.GoogleNow.js","logPaths":["/tmp/framerps.log","~/Source/FramerSite/static/examples/GoogleNow/framer/framerps.log"]}
+
+Running for ~/Source/FramerSite/static/examples/GoogleNow
+Searchbox: Exporting image
+PROGRESS: 18.1818181818182
+PROGRESS: 90.9090909090909
+2 views changed
+Skipping ~/Source/FramerSite/static/examples/GoogleNow/index.html (exists)
+Skipping ~/Source/FramerSite/static/examples/GoogleNow/app.js (exists)
+Skipping ~/Source/FramerSite/static/examples/GoogleNow/framer/framer.js (exists)
+Skipping ~/Source/FramerSite/static/examples/GoogleNow/framer/framerps.js (exists)
+
+SUCCESS: ~/Source/FramerSite/static/examples/GoogleNow
