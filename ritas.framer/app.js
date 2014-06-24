@@ -4,7 +4,7 @@ PSD = Framer.Importer.load("imported/ritas");
 
 animateCurveSpeed = 0.2;
 
-animateCurveSpeedMenu = 0.3
+animateCurveSpeedMenu = 0.3;
 
 animateInCurve = "spring(200,15,2)";
 
@@ -54,6 +54,8 @@ gotoHome = function() {
 	PSD["close"].visible = false
 };
 
+
+
 /* Set stage */
 
 gotoHome();
@@ -81,4 +83,26 @@ PSD["close"].on(pointerType, function(e) {
   e.preventDefault();
   movePage = toggler();
   return movePage();
+});
+
+PSD["meter"].visible = false;
+
+PSD["meter-full"].on(Events.TouchStart, function() {
+	PSD["meter-full"].animate({
+		properties: {
+	  	scale: 0.5
+	  },
+    curve: animateInCurve,
+    time: animateCurveSpeed
+	});
+});
+
+PSD["meter-full"].on(Events.TouchEnd, function() {
+	PSD["meter-full"].animate({
+		properties: {
+	  	scale: 1
+	  },
+    curve: animateInCurve,
+    time: animateCurveSpeed
+	});
 });

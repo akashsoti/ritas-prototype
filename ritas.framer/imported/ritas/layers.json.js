@@ -249,15 +249,15 @@ window.__imported__["ritas/layers.json.js"] = [
 							"frame": {
 								"x": 27,
 								"y": 153,
-								"width": 201,
-								"height": 339
+								"width": 334,
+								"height": 380
 							}
 						},
 						"imageType": "png",
 						"children": [
 							
 						],
-						"modification": "259766783"
+						"modification": "1048621210"
 					},
 					{
 						"id": 39,
@@ -385,7 +385,7 @@ window.__imported__["ritas/layers.json.js"] = [
 						"modification": "2011362094"
 					}
 				],
-				"modification": "1437400175"
+				"modification": "313660586"
 			},
 			{
 				"id": 123,
@@ -561,6 +561,6 @@ window.__imported__["ritas/layers.json.js"] = [
 				"modification": "1962690699"
 			}
 		],
-		"modification": "1205855731"
+		"modification": "1555237932"
 	}
 ]
