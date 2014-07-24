@@ -69,7 +69,7 @@ gotoScanPage = function() {
 	});
 	PSD["hamburger"].visible = false
 	PSD["body"].visible = false
-	PSD["scan-line"].animate({ properties : {y: 100} });
+	PSD["scan-line"].animate({ properties : {y: 820}, curve: "ease-in-sine", time: 1, repeat: 100});
 }
 
 /* Set stage */
