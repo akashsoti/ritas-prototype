@@ -35,7 +35,7 @@
 				"children": [
 					
 				],
-				"modification": "1607226116"
+				"modification": "692978879"
 			},
 			{
 				"id": 59,
@@ -60,7 +60,97 @@
 				"children": [
 					
 				],
-				"modification": "1517861959"
+				"modification": "1360992217"
+			},
+			{
+				"id": 204,
+				"name": "scan",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 640,
+					"height": 1136
+				},
+				"maskFrame": null,
+				"image": null,
+				"imageType": null,
+				"children": [
+					{
+						"id": 212,
+						"name": "scan-line",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 640,
+							"height": 1136
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/scan-line.png",
+							"frame": {
+								"x": 65,
+								"y": 692,
+								"width": 519,
+								"height": 10
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "259829382"
+					},
+					{
+						"id": 208,
+						"name": "body-scan",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 640,
+							"height": 1136
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/body-scan.png",
+							"frame": {
+								"x": 0,
+								"y": 0,
+								"width": 640,
+								"height": 1136
+							}
+						},
+						"imageType": "png",
+						"children": [
+							{
+								"id": 247,
+								"name": "close-scan",
+								"layerFrame": {
+									"x": 0,
+									"y": 0,
+									"width": 640,
+									"height": 1136
+								},
+								"maskFrame": null,
+								"image": {
+									"path": "images/close-scan.png",
+									"frame": {
+										"x": 540,
+										"y": 9,
+										"width": 91,
+										"height": 91
+									}
+								},
+								"imageType": "png",
+								"children": [
+									
+								],
+								"modification": "285179208"
+							}
+						],
+						"modification": "1652870259"
+					}
+				],
+				"modification": "566150546"
 			},
 			{
 				"id": 101,
@@ -72,16 +162,8 @@
 					"height": 1136
 				},
 				"maskFrame": null,
-				"image": {
-					"path": "images/body.png",
-					"frame": {
-						"x": 0,
-						"y": 0,
-						"width": 640,
-						"height": 1136
-					}
-				},
-				"imageType": "png",
+				"image": null,
+				"imageType": null,
 				"children": [
 					{
 						"id": 69,
@@ -106,7 +188,7 @@
 						"children": [
 							
 						],
-						"modification": "1398356207"
+						"modification": "259799584"
 					},
 					{
 						"id": 52,
@@ -131,7 +213,7 @@
 						"children": [
 							
 						],
-						"modification": "1509984731"
+						"modification": "259770013"
 					},
 					{
 						"id": 45,
@@ -156,7 +238,7 @@
 						"children": [
 							
 						],
-						"modification": "1313849880"
+						"modification": "1378800951"
 					},
 					{
 						"id": 26,
@@ -181,7 +263,7 @@
 						"children": [
 							
 						],
-						"modification": "1400903590"
+						"modification": "1613839095"
 					},
 					{
 						"id": 37,
@@ -206,7 +288,7 @@
 						"children": [
 							
 						],
-						"modification": "1078008795"
+						"modification": "753955754"
 					},
 					{
 						"id": 34,
@@ -231,7 +313,7 @@
 						"children": [
 							
 						],
-						"modification": "1488658833"
+						"modification": "1447282884"
 					},
 					{
 						"id": 92,
@@ -256,7 +338,7 @@
 						"children": [
 							
 						],
-						"modification": "1048621210"
+						"modification": "22127076"
 					},
 					{
 						"id": 39,
@@ -281,7 +363,7 @@
 						"children": [
 							
 						],
-						"modification": "1605376864"
+						"modification": "401967286"
 					},
 					{
 						"id": 100,
@@ -306,7 +388,7 @@
 						"children": [
 							
 						],
-						"modification": "1952130624"
+						"modification": "427359031"
 					},
 					{
 						"id": 41,
@@ -331,7 +413,7 @@
 						"children": [
 							
 						],
-						"modification": "769633143"
+						"modification": "501492828"
 					},
 					{
 						"id": 31,
@@ -356,7 +438,7 @@
 						"children": [
 							
 						],
-						"modification": "722456837"
+						"modification": "1374195136"
 					},
 					{
 						"id": 54,
@@ -381,10 +463,10 @@
 						"children": [
 							
 						],
-						"modification": "2011362094"
+						"modification": "259650635"
 					}
 				],
-				"modification": "313660586"
+				"modification": "1712473483"
 			},
 			{
 				"id": 123,
@@ -435,7 +517,7 @@
 								"children": [
 									
 								],
-								"modification": "1067046845"
+								"modification": "259650628"
 							},
 							{
 								"id": 144,
@@ -460,10 +542,10 @@
 								"children": [
 									
 								],
-								"modification": "326077461"
+								"modification": "776102678"
 							}
 						],
-						"modification": "1161126185"
+						"modification": "1768438368"
 					},
 					{
 						"id": 146,
@@ -501,7 +583,7 @@
 								"children": [
 									
 								],
-								"modification": "804290618"
+								"modification": "669283070"
 							},
 							{
 								"id": 150,
@@ -526,10 +608,10 @@
 								"children": [
 									
 								],
-								"modification": "2125026330"
+								"modification": "157195095"
 							}
 						],
-						"modification": "281710452"
+						"modification": "1461435425"
 					},
 					{
 						"id": 125,
@@ -554,12 +636,12 @@
 						"children": [
 							
 						],
-						"modification": "1666179676"
+						"modification": "1489202320"
 					}
 				],
-				"modification": "1962690699"
+				"modification": "1444662183"
 			}
 		],
-		"modification": "1555237932"
+		"modification": "691113174"
 	}
 ]

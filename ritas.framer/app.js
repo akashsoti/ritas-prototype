@@ -52,9 +52,25 @@ gotoHome = function() {
 	PSD["hamburger"].visible = true	
 
 	PSD["close"].visible = false
+
+	PSD["body"].visible = true
+
+	PSD["scan"].visible = false
+
 };
 
+PSD["scan"].visible = false
 
+gotoScanPage = function() {
+	PSD["scan"].visible = true
+	PSD["scan"].animate({
+		curve: animateInCurve,
+    time: animateCurveSpeed
+	});
+	PSD["hamburger"].visible = false
+	PSD["body"].visible = false
+	PSD["scan-line"].animate({ properties : {y: 100} });
+}
 
 /* Set stage */
 
@@ -68,6 +84,7 @@ pointerType = "click";
 /* Trigger animation on click/tap anywhere */
 
 toggler = Utils.toggle(gotoNow, gotoHome);
+
 
 PSD["hamburger"].on(pointerType, function(e) {
   var movePage;
@@ -105,4 +122,26 @@ PSD["meter-full"].on(Events.TouchEnd, function() {
     curve: animateInCurve,
     time: animateCurveSpeed
 	});
+	gotoScanPage();
+});
+
+PSD["close-scan"].on(Events.TouchStart, function(e) {
+	this.animate({
+		properties: {
+	  	scale: 0.5
+	  },
+    curve: animateInCurve,
+    time: animateCurveSpeed
+	});
+});
+
+PSD["close-scan"].on(Events.TouchEnd, function(e) {
+	this.animate({
+		properties: {
+	  	scale: 1
+	  },
+    curve: animateInCurve,
+    time: animateCurveSpeed
+	});
+	gotoHome();
 });
