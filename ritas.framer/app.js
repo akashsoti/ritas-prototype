@@ -57,6 +57,8 @@ gotoHome = function() {
 
 	PSD["scan"].visible = false
 
+	PSD["share"].visible = false
+
 };
 
 PSD["scan"].visible = false
@@ -70,8 +72,16 @@ gotoScanPage = function() {
 	PSD["hamburger"].visible = false
 	PSD["body"].visible = false
 	PSD["scan-line"].animate({ properties : {y: 820}, curve: "ease-in-sine", time: 1, repeat: 100});
+	PSD["capture-scan"].on(pointerType, function (){
+		gotoSharePage();
+	});
 }
 
+gotoSharePage = function() {
+	PSD["share"].visible = true
+	PSD["scan"].visible = false
+	
+}
 /* Set stage */
 
 gotoHome();
@@ -101,6 +111,7 @@ PSD["close"].on(pointerType, function(e) {
   movePage = toggler();
   return movePage();
 });
+
 
 PSD["meter"].visible = false;
 
